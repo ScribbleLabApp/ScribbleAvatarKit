@@ -1,0 +1,65 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# CocoaPods
+Pods/
+*.lock
+*.xcconfig
+
+# Metal
+*.air
+*.metallib
+
+# C/C++ & Objective-C
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.la
+*.lo
+*.exe
+*.out
+*.app/
+*.dSYM/
+*.mod
+*.gcno
+*.gcda
+*.gcov
+*.ccls-cache/
+*.vscode/
+compile_commands.json
+
+# Logs
+*.log
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Editor-specific
+.idea/
+.vscode/
