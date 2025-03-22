@@ -34,12 +34,12 @@ version: 2.1
 executors:
   macos-executor:
     macos:
-      xocde: "16.0"
+      xcode: 16.0
     resource_class: macos.m1.medium
   
   ios-executor:
     macos:
-      xcode: "16.0"
+      xcode: 16.0
     resource_class: macos.m1.medium
 
 jobs:
